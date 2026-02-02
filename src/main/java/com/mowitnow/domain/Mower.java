@@ -30,7 +30,7 @@ public class Mower {
         if (lawn.contains(newCoordinates)) {
             this.coordinates = newCoordinates;
         }
-        // Si c'est hors limite, on ne fait rien (spécification)
+        
     }
 
     @Override
