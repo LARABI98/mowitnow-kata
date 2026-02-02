@@ -2,7 +2,7 @@
 
 Implémentation en Java du kata **"La Tondeuse"** (MowItNow / Xebia).
 
-## 📌 Description
+##  Description
 Ce projet simule le déplacement de tondeuses automatiques sur une pelouse rectangulaire.
 Chaque tondeuse reçoit une position initiale, une orientation et une suite d’instructions
 lui permettant d’explorer la pelouse en respectant des règles précises.
@@ -11,7 +11,7 @@ Le programme lit une entrée et retourne la position finale de chaque tondeuse.
 
 ---
 
-## ⚙️ Règles de fonctionnement
+##  Règles de fonctionnement
 - La pelouse est définie par un coin inférieur gauche `(0,0)` et un coin supérieur droit `(x,y)`
 - Une tondeuse est définie par :
   - une position `(x, y)`
@@ -25,7 +25,7 @@ Le programme lit une entrée et retourne la position finale de chaque tondeuse.
 
 ---
 
-## 🧱 Choix techniques
+##  Choix techniques
 - Java
 - Programmation orientée objet
 - Séparation claire des responsabilités (domain / instructions / orchestration)
@@ -34,7 +34,7 @@ Le programme lit une entrée et retourne la position finale de chaque tondeuse.
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 
 src/
 ├── main/
@@ -48,21 +48,26 @@ src/
 
 ---
 
-## ▶️ Exemple d’entrée
+##  Exemple d’entrée
 └── com/mowitnow/
 5 5
+
 1 2 N
+
 GAGAGAGAA
+
 3 3 E
+
 AADAADADDA
 
-## ✅ Sortie attendue
+##  Sortie attendue
 1 3 N
+
 5 1 E
 
 ---
 
-## 🧪 Tests
+##  Tests
 Les tests unitaires et le test d’intégration permettent de valider :
 - les rotations
 - les déplacements
@@ -71,6 +76,6 @@ Les tests unitaires et le test d’intégration permettent de valider :
 
 ---
 
-## 🚀 Exécution
+##  Exécution
 Le cœur du programme est accessible via la classe :
 com.mowitnow.MowerApplication
